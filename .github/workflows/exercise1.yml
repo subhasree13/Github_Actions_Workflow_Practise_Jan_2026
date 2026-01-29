@@ -1,0 +1,13 @@
+name: "Exercise Workflow"
+
+on:
+  push:
+
+
+jobs:
+    new_commit:
+        runs-on: ubuntu-latest
+        steps:
+            - name: "Print New Commit Coming"
+              run: echo "New Commit Coming" 
+    
