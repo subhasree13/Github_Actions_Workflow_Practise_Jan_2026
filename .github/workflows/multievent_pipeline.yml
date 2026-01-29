@@ -1,0 +1,15 @@
+name: "Multi Event Pipeline/Workflow" #name of the pipeline
+
+on:
+  push: #Event: whenever a push i smade to the repoistory on the master branch 
+    branches:
+        - master
+        - Test
+
+
+jobs:
+  on-push: #job-name
+    runs-on: ubuntu-latest
+    steps: #steps
+        - name: "Running on master push"
+          run: echo "Running on master push"
