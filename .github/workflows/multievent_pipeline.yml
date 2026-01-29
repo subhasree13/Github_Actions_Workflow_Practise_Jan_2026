@@ -4,6 +4,7 @@ on:
     push: #Event: whenever a push i smade to the repoistory on the master branch 
         branches:
             - master
+            - Test
 
 
 jobs:
