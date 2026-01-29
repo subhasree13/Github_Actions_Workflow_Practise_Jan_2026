@@ -11,6 +11,6 @@ jobs:
             - name: "Print New Commit Coming"
               run: echo "New Commit Coming" 
             
-            -name: "Print Subhasree"
-             run: echo "Subhasree"
+            - name: "Print Subhasree"
+              run: echo "Subhasree"
     
