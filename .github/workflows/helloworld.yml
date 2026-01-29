@@ -11,7 +11,7 @@ on:
 
 jobs:
   hello_world:
-    runs-on: ubuntu_latest
+    runs-on: ubuntu-latest
     steps:
       - name: "Print Hello World"
         run:  echo "Hello World"
